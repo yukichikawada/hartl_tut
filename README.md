@@ -30,6 +30,10 @@ Finally, run the test suite to verify that everything is working correctly:
 ```
 $ rails test
 ```
+Or, start guard to watch test files then runs automated tests
+```
+$ bundle exec guard
+```
 
 If the test suite passes, you'll be ready to run the app in a local server:
 
